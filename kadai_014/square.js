@@ -1,2 +1,4 @@
-const square = (num) => { console.log(num * num) };
-square(10);
+const square = (num) => {
+  return num * num
+};
+console.log(square(10))
